@@ -12,7 +12,8 @@ class DustSensor:
         self.buffer = [0] * self.buffer_len
         self.flag_first = 0
         self.sum1 = 0
-        self.NO_DUST_VOLTAGE = 400
+        self.NO_DUST_VOLTAGE = 600
+#         self.NO_DUST_VOLTAGE = 200
         self.COV_RATIO = 0.2
 #         self.DIN = 17
         self.DIN = LED(17)
